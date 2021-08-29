@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useReducer } from "react";
+import React, { createContext, useContext, useReducer, useEffect } from "react";
 import PropTypes from 'prop-types';
 
 export const contexts = new Map();
@@ -15,6 +15,12 @@ export const StateProvider = ({
     StateContext = createContext();
     contexts.set(contextName, StateContext);
   }
+
+  useEffect(() => {
+    return () => {
+      contexts.delete(contextName);
+    }
+  }, [contextName]);
 
   return (
     <StateContext.Provider value={useReducer(reducer, initialState)}>
