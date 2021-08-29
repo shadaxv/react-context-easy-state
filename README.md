@@ -52,7 +52,7 @@ const App = () => {
 `useStateValue` function returns array, where first item is `state` object and second item is `dispatch` function that accepts the `action` as a parameter. 
 
 ```jsx harmony
-import { getState } from 'react-context-easy-state';
+import { useStateValue } from 'react-context-easy-state';
 
 const ThemedButton = () => {
   const [{ theme }, dispatch] = useStateValue("main");
