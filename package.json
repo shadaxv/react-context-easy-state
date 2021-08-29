@@ -1,6 +1,6 @@
 {
     "name": "react-context-easy-state",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Super simple state management for React apps",
     "main": "src/index.js",
     "author": "Aleksander Niedźwiedź <aleksander@niedzwiedz.dev>",
