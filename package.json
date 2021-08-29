@@ -1,11 +1,23 @@
 {
-  "name": "react-simply",
-  "version": "0.1.0",
-  "description": "Tools for simple and effective React developement",
-  "author": "Luke Hall <luke.hall@header.cz>",
-  "repository": "github:lukashala/react-simply",
-  "license": "MIT",
-  "devDependencies": {
-    "lerna": "^3.10.5"
-  }
+    "name": "react-context-easy-state",
+    "version": "1.0.0",
+    "description": "Super simple state management for React apps",
+    "main": "src/index.js",
+    "author": "Aleksander Niedźwiedź <aleksander@niedzwiedz.dev>",
+    "repository": "https://github.dev/shadaxv/react-context-easy-state",
+    "license": "MIT",
+    "dependencies": {
+        "prop-types": "^15.7.2",
+        "react": "^17.0.2"
+    },
+    "keywords": [
+        "react",
+        "simply",
+        "simple",
+        "state",
+        "state management",
+        "reducer",
+        "functional",
+        "predictable"
+    ]
 }
