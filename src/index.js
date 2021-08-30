@@ -33,11 +33,8 @@ StateProvider.propTypes = {
    * @return {React.Node}
    */
   children: PropTypes.node.isRequired,
-
-  /**
-   * Object containing initial state value.
-   */
-   contextName: PropTypes.string.isRequired,
+  
+  contextName: PropTypes.string.isRequired,
 
   /**
    * Object containing initial state value.
@@ -45,7 +42,6 @@ StateProvider.propTypes = {
   initialState: PropTypes.shape({}).isRequired,
 
   /**
-   *
    * @param {object} state
    * @param {object} action
    */
